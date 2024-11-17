@@ -5,7 +5,7 @@ import {arrayToLinkedList, ListNode} from "./构造链表.js";
  * @param {ListNode} l2
  * @return {ListNode}
  */
-var addTwoNumbers = function (l1, l2) {
+export var addTwoNumbers = function (l1, l2) {
     const resList = new ListNode(-1);  // 哑节点，最终返回 resList.next
     let resP = resList;
     let carry = 0;

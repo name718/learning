@@ -4,7 +4,7 @@ import {arrayToLinkedList, ListNode} from "./构造链表.js";
  * @param {ListNode} head
  * @return {ListNode}
  */
-var reverseList = function (head) {
+export var reverseList = function (head) {
     let prev = null;
     let current = head;
 
