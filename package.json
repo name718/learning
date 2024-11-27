@@ -8,5 +8,9 @@
   },
   "author": "",
   "license": "ISC",
-  "description": ""
+  "keywords": [],
+  "description": "",
+  "devDependencies": {
+    "prettier": "^3.4.1"
+  }
 }
